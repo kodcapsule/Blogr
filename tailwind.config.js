@@ -20,13 +20,11 @@ export default {
         Very_dark_desaturated_blue: "hsl(237, 23%, 32%)",
       },
       backgroundImage: {
-        "pattern-intro-desktop":
-          "url('./src/assets/images/bg-pattern-intro-desktop.svg')",
-        "pattern-intro-mobile":
-          "url('./src/assets/images/bg-pattern-intro-mobile.svg')",
-        "pattern-intro-mobile":
-          "url('./src/assets/images/bg-pattern-intro-mobile.svg')",
-        "pattern-circles": "url('./src/assets/images/bg-pattern-circles.svg')",
+        // "pattern-intro-desktop":
+        //   "url('./src/assets/images/bg-pattern-intro-desktop.svg')",
+        // "pattern-intro-mobile":
+        //   "url('./src/assets/images/bg-pattern-intro-mobile.svg')",
+        // "pattern-circles": "url('./src/assets/images/bg-pattern-circles.svg')",
       },
     },
   },

@@ -3,8 +3,8 @@ import Navbar from "./Navbar";
 
 const Hero = () => {
   return (
-    <div className=" md:bg-pattern-intro-desktop bg-cover bg-no-repeat z-20 bg-Very_light_red text-White rounded-bl-[4rem] md:rounded-bl-[3rem] pb-4 ">
-      {/* <img src={intro_img} className=" w-3/6 absolute z-0 top-0" alt="" /> */}
+    <div className="  bg-cover bg-no-repeat z-20 bg-Very_light_red text-White rounded-bl-[4rem] md:rounded-bl-[3rem] pb-4 ">
+      {/* <img src={intro_img} className=" w-3/6 absolute z-0 top-0" alt="" /> md:bg-pattern-intro-desktop */}
       <Navbar />
 
       <div className="hero_container flex flex-col justify-center items-center mt-10 text-center">
