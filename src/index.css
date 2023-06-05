@@ -27,7 +27,21 @@ body {
 }
 
 .bg-img {
+  background-image: url("../src/assets/images/bg-pattern-intro-desktop.svg");
+  background-position: 4% 51%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: hsl(356, 100%, 66%);
 }
+
+/* .bg-color {
+  background: linear-gradient(
+    to right,
+
+    hsl(356, 100%, 66%),
+    hsl(355, 100%, 74%)
+  );
+} */
 
 .section_container {
   @apply container flex flex-col mt-[10rem];
