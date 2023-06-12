@@ -2,7 +2,7 @@ import mobile_img from "../assets/images/illustration-phones.svg";
 
 const Infastracture = () => {
   return (
-    <section className=" section_container bg-pattern-circles bg-contain bg-no-repeat bg-Very_dark_gray_blue rounded-bl-[5rem] mt-[12rem] rounded-tr-[5rem] md:rounded-bl-[10rem] md:rounded-tr-[10rem]">
+    <section className="bg-circles section_container bg-pattern-circles bg-contain bg-no-repeat bg-Very_dark_gray_blue rounded-bl-[5rem] mt-[12rem] rounded-tr-[5rem] md:rounded-bl-[10rem] md:rounded-tr-[10rem]">
       <div className="flex flex-col md:flex-row">
         <img
           src={mobile_img}

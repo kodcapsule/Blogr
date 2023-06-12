@@ -3,7 +3,10 @@ import Laptop_img from "../assets/images/illustration-laptop-desktop.svg";
 const Open = () => {
   return (
     <section className=" section_container">
-      <div className="flex gap-10 flex-col justify-center items-center px-10 md:flex-row md:gap-28">
+      <div
+        className="flex gap-10 flex-col
+       justify-center items-center px-10 md:flex-row md:gap-28"
+      >
         <img
           src={Laptop_img}
           alt=""

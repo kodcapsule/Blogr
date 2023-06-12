@@ -33,6 +33,12 @@ body {
   background-repeat: no-repeat;
   background-color: hsl(356, 100%, 66%);
 }
+.bg-circles {
+  background-image: url("../src/assets/images/bg-pattern-circles.svg");
+  background-position: left;
+  background-size: 50rem;
+  background-repeat: no-repeat;
+}
 
 /* .bg-color {
   background: linear-gradient(
