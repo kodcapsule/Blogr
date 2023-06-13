@@ -4,13 +4,14 @@ import Open_menu from "../assets/images/icon-hamburger.svg";
 import Close_menu from "../assets/images/icon-close.svg";
 import logo from "../assets/images/logo.svg";
 import arrow from "../assets/images/icon-arrow-light.svg";
+import dark_arrow from "../assets/images/icon-arrow-dark.svg";
 
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(true);
 
-  function openNavbarMenu() {
-    setOpenMenu(!openMenu);
-  }
+  // function openNavbarMenu() {
+  //   setOpenMenu(!openMenu);
+  // }
   return (
     <div className=" flex justify-between container items-center mx-auto navbar_container p-5 ">
       <div className=" flex gap-x-20 items-center ">
@@ -19,28 +20,51 @@ const Navbar = () => {
         </div>
 
         <nav>
-          <ul className=" hidden gap-x-7 md:flex capitalize">
-            <li>
-              <a href="#" className=" relative">
+          <ul className="  hidden gap-x-10 md:flex capitalize">
+            <li className=" dropdown relative">
+              <button className="link flex items-center gap-1 ">
                 product
-              </a>
+                <span>
+                  <img src={arrow} alt="" />
+                </span>
+              </button>
+              <ul className=" dropdown-menu">
+                <li>lihjjhjjhgjh</li>
+                <li>li uyyuiui</li>
+                <li>li</li>
+                <li>li</li>
+              </ul>
             </li>
             <li>
-              <a href="#" className="relative " onClick={openNavbarMenu}>
-                company
-                <ul
-                  className={`bg-white absolute  text-very_dark_blue p-4 rounded-sm ${
-                    openMenu ? "hidden" : "open"
-                  }`}
-                >
-                  <li>One</li>
-                  <li>Two</li>
-                  <li>Three</li>
+              <li className=" dropdown relative">
+                <button className="link flex items-center gap-1 ">
+                  Company
+                  <span>
+                    <img src={arrow} alt="" />
+                  </span>
+                </button>
+                <ul className="dropdown-menu">
+                  <li>lihjjhjjhgjh</li>
+                  <li>li uyyuiui</li>
+                  <li>li</li>
+                  <li>li</li>
                 </ul>
-              </a>
+              </li>
             </li>
             <li>
-              <a href="#">connect</a>
+              <li className=" dropdown relative">
+                <button className="link flex items-center gap-1 ">
+                  Connect
+                  <span>
+                    <img src={arrow} alt="" />
+                  </span>
+                </button>
+                <ul className="dropdown-menu">
+                  <li>Contact</li>
+                  <li>NewsLetter</li>
+                  <li>LinkedIn</li>
+                </ul>
+              </li>
             </li>
           </ul>
         </nav>
